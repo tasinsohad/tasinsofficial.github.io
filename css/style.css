@@ -6,7 +6,7 @@ body{
 
 .banner-container{
    
-    background: url("/img/my photos/cover lake city.jpg")!important;
+   background: url("/img/my photos/cover lake city.jpg")!important;
 background-size: contain;
 background-repeat: no-repeat;
 background-attachment: scroll;
