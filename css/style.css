@@ -1,0 +1,160 @@
+body{  
+
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+
+.banner-container{
+   
+    background: url("/img/my photos/cover\ lake\ city.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+background-attachment: scroll;
+
+}
+row1
+
+
+.bgsize{
+   
+    height: 533px;
+    
+}
+
+.repo{
+    
+    margin-top: 19vw!important;
+
+    
+}
+
+
+.header2{ 
+    position: sticky;
+    top: 0;
+z-index: 3;
+
+}
+
+.banner-column{
+
+/* background-color: #8D8D8D; */
+/* background-color:#eb4c1c; */
+border-radius: 10px 10px;
+}
+
+#header1{
+    display: inline;
+   
+}
+
+/* .about{
+
+    background-color: #01B9BB;
+} */
+
+
+.tutoraial-container{
+
+    background-color: #EDEDED;
+}
+.red-type{
+color: #FF9080;
+
+}
+.bg-red-type{
+        background-color: #FF9080;
+}
+.bg-red-type:hover{
+        background-color: #ffffff!important;
+         color: black!important;
+    
+}
+
+.circle{
+     background-color: #FF9080;
+     
+     height: 150px;
+width: 150px;
+border-radius: 50%;
+
+
+}
+
+.project-container{
+
+    background-color:#20A7DF;
+}
+
+.cbdr{
+    border: 3px solid white;
+border-radius: 5%;
+display: inline;
+
+
+}
+
+.navbar{
+
+    position: sticky;
+    top: 0;
+
+    z-index: 3;
+}
+
+.form-container{
+background-color: #464D5D;
+
+
+}
+
+.inner-form{
+
+    background-color: #566075;
+}
+
+.nav-container{
+    background-color: #262B37;
+}
+
+#submit{
+
+    margin: auto;}
+
+
+    .footer{
+        background-color: #1FA5DC;
+    }
+    .circle-0{
+
+        width: 60px;
+        height: 60px;
+border-radius: 50%;
+display: inline-block;
+background-color: white;
+font-size: 40px;
+text-align: center;
+color: ;
+    }
+    .circle-0:hover{
+
+        width: 60px;
+        height: 60px;
+border-radius: 50%;
+display: inline-block;
+background-color: #262B37;
+font-size: 40px;
+text-align: center;
+color: white;
+    }
+  .a-0{
+        text-decoration: none;
+        color: #1FA5DC;
+    }
+ 
+
+    .rounded-4{
+
+        width: 200px;
+        height: 250px;
+    }

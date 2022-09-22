@@ -1,0 +1,135 @@
+/* *{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    } */
+    
+    .about{
+    
+        
+    /* width: 100%;
+    height: 100vh; */
+    
+    animation:changeBg 15s infinite ;
+    background-color: red;
+    display: grid;
+    place-items: center;
+    
+    }
+    
+    @keyframes changeBg {
+    
+        0%{
+            background-color: rgb(45, 83, 207);
+        }
+       
+        20%{
+            background-color: rgb(121, 212, 60);
+        }
+        
+        40%{
+            background-color:rgb(144, 44, 202);
+        }
+    
+        60%{
+            background-color:rgb(51, 209, 183);
+        }
+    
+      80%{
+            background-color: rgb(85, 50, 182);
+        }
+    
+        100%{
+            background-color: rgb(35, 89, 189);
+        }
+    
+    }
+
+
+    .ani0{
+    
+        
+        /* width: 100%;
+        height: 100vh; */
+        
+        animation:change-bg 15s infinite ;
+        background-color: red;
+        display: grid;
+        place-items: center;
+        
+        }
+        
+        @keyframes change-bg {
+        
+            0%{
+                background-color: rgba(150, 207, 45, 0.932);
+            }
+           
+            20%{
+                background-color: rgb(118, 60, 212);
+            }
+            
+            40%{
+                background-color:rgb(144, 44, 202);
+            }
+        
+            60%{
+                background-color:rgb(209, 96, 51);
+            }
+        
+          80%{
+                background-color: rgb(202, 178, 40);
+            }
+        
+            100%{
+                background-color: rgba(150, 207, 45, 0.932);
+            }
+        
+        }
+
+        .ani1{
+    
+        
+            /* width: 100%;
+            height: 100vh; */
+            
+            animation:change-bg1 30s infinite ;
+            background-color: red;
+            display: grid;
+            place-items: center;
+            
+            }
+            
+            @keyframes change-bg1 {
+            
+                0%{
+                    background-color: rgba(140, 168, 190, 0.932)!important;
+                }
+               
+                20%{
+                    background-color: rgb(131, 189, 141);
+                }
+                
+                40%{
+                    background-color:rgb(139, 121, 201);
+                }
+            
+                60%{
+                    background-color:rgb(149, 201, 156);
+                }
+            
+              80%{
+                    background-color: rgb(120, 202, 184);
+                }
+            
+                100%{
+                    background-color:  rgba(122, 164, 199, 0.932)!important;
+                }
+            
+            }
+
+
+        
