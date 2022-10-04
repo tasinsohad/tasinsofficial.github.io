@@ -6,10 +6,11 @@ body{
 
 .banner-container{
    
-   background:url('../img/my photos/cover lake city.jpg');
+    background:url('../img/my photos/cover lake city.jpg');!important;
 background-size: contain;
 background-repeat: no-repeat;
 background-attachment: scroll;
+bac
 
 }
 row1
@@ -48,10 +49,10 @@ border-radius: 10px 10px;
    
 }
 
-/* .about{
-
-    background-color: #01B9BB;
-} */
+.about{
+height: 58rem;
+ 
+}
 
 
 .tutoraial-container{
@@ -115,6 +116,7 @@ background-color: #464D5D;
 
 .nav-container{
     background-color: #262B37;
+   
 }
 
 #submit{
@@ -146,6 +148,7 @@ background-color: #262B37;
 font-size: 40px;
 text-align: center;
 color: white;
+transition: .3s;
     }
   .a-0{
         text-decoration: none;
@@ -158,3 +161,27 @@ color: white;
         width: 200px;
         height: 250px;
     }
+
+
+.nobg{
+    background-color: #2528295e!important;
+}
+ul li a{
+
+    width: 60px;
+    text-align: center;
+}
+ul li a:hover{
+background-color: rgba(255, 255, 255, 0.534);
+color: black!important;
+border-radius: 7px;
+transition: .7s;
+font-size: 25px;
+width: 110px;
+}
+
+.nav-link{
+display: inline-block;
+
+}
+
