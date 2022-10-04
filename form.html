@@ -14,46 +14,50 @@
 
 <body>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark text-uppercase  nav-container">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
-  
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">TASIN SOHAD <SUP>OFFCIAL</SUP></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-  <li class="nav-item">
-              <a class="nav-link" href="form.html">Login</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#tutorial">Tutorial</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-  
+        <div class="offcanvas offcanvas-end nobg text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body ">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html/#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="/form.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html/#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html/#tutorial">Tutorial</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
+                </a>
+                <ul class="dropdown-menu dropdown-menu-light">
+                  <li><a class="dropdown-item" href="index.html/#blog">Blog</a></li>
+                  <li><a class="dropdown-item" href="index.html/#portfolio">Portfolio</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="index.html/#contact">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          
+          </div>
         </div>
       </div>
     </nav>
